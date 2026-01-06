@@ -1,6 +1,6 @@
 {
-  "name": "@mochi/design-tokens",
-  "version": "1.0.0",
+  "name": "@reachtrevor/design-tokens",
+  "version": "0.1.0",
   "description": "CLI tool to transform design tokens from JSON to CSS variables using Style Dictionary",
   "type": "module",
   "main": "dist/index.js",
