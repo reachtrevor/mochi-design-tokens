@@ -4,18 +4,30 @@ A CLI tool that transforms design tokens from JSON to CSS variables using [Style
 
 ## Installation
 
-```bash
-# Install from GitHub Package Registry
-npm install @anthropic/design-tokens
+### 1. Create a GitHub Personal Access Token
 
-# Or install globally
-npm install -g @anthropic/design-tokens
+1. Go to **GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)**
+2. Click **Generate new token (classic)**
+3. Select scope: `read:packages`
+4. Copy the token
+
+### 2. Configure npm for GitHub Packages
+
+```bash
+# Add GitHub Packages registry for @reachtrevor scope
+echo "@reachtrevor:registry=https://npm.pkg.github.com" >> ~/.npmrc
+
+# Authenticate with your token
+npm login --registry=https://npm.pkg.github.com
+# Username: your GitHub username
+# Password: paste your token
+# Email: your email
 ```
 
-### Install from GitHub directly
+### 3. Install globally
 
 ```bash
-npm install github:anthropic/design-tokens
+npm install -g @reachtrevor/design-tokens
 ```
 
 ## Usage
@@ -152,4 +164,3 @@ npm run dev -- path/to/tokens.zip --out ./output
 ## License
 
 MIT
-
