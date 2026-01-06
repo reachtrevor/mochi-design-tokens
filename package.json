@@ -36,6 +36,9 @@
     "url": "https://github.com/reachtrevor/mochi-design-tokens/issues"
   },
   "homepage": "https://github.com/reachtrevor/mochi-design-tokens#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
