@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output
+test-output/
+
+# Generated CSS files
+*.vars.gen.css
+
+# Environment
+.env
+.env.local
+
+# Artifacts (sample files for development)
+.artifacts/
+
