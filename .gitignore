@@ -2,7 +2,7 @@
 node_modules/
 
 # Build output (committed for direct GitHub installs)
-# dist/
+dist/
 
 # IDE
 .idea/
