@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/design-tokens",
+  "name": "@mochi/design-tokens",
   "version": "1.0.0",
   "description": "CLI tool to transform design tokens from JSON to CSS variables using Style Dictionary",
   "type": "module",
@@ -30,12 +30,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anthropic/design-tokens.git"
+    "url": "git+https://github.com/reachtrevor/mochi-design-tokens.git"
   },
   "bugs": {
-    "url": "https://github.com/anthropic/design-tokens/issues"
+    "url": "https://github.com/reachtrevor/mochi-design-tokens/issues"
   },
-  "homepage": "https://github.com/anthropic/design-tokens#readme",
+  "homepage": "https://github.com/reachtrevor/mochi-design-tokens#readme",
   "engines": {
     "node": ">=18.0.0"
   },

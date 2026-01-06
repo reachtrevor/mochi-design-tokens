@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build output
-dist/
+# Build output (committed for direct GitHub installs)
+# dist/
 
 # IDE
 .idea/
